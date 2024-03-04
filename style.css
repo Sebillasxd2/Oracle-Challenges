@@ -1,0 +1,136 @@
+body{
+    background: rgba(243, 245, 252, 1);
+}
+
+.logo{
+    position: relative;
+
+    height: 40px;
+    width: 120px;
+    top:40px;
+    left:40px;
+    gap:40px;
+}
+#texto1{
+    position: relative;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 48px;
+    border:none;
+    color:#0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    height: 288px;
+    width: 680px;
+    top:168px;
+    left:240px;
+}
+#texto2{
+    position: relative;
+    left: 32px;
+    border:none;
+    height: 781px;
+    width: 336px;
+    color:#495057;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 36px;
+}
+main{
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+}
+#seccion2{
+    position: relative;
+    height: 944px;
+    width: 400px;
+    top:40px;
+    left: 500px;
+    border-radius: 32px;
+    background: white;
+}
+.info{
+    position: relative;
+    width: 252px;
+    height: 18px;
+    top: 401px;
+    left:240px;
+    gap:8px;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 680px;
+    height: 67px;
+    top: 385px;
+    left:240px;
+    gap:24px;
+}
+.encriptar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    width: 336px;
+    height: 67px;
+    border-radius: 24px;
+    border:1px, solid;
+    padding: 24px;
+    gap:8px;
+    color:white;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 36px;
+    cursor: pointer;
+}
+.desencriptar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:2px solid rgb(77, 147, 228);
+    width: 336px;
+    height: 67px;
+    left: 650px;
+    bottom: 1000px;
+    border-radius: 24px;
+    border:1px solid;
+    padding: 24px;
+    gap:8px;
+    cursor: pointer;
+    color: rgba(10, 56, 113, 1);
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 36px;
+}
+.botones button {
+    text-align: center;}
+#copiar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 32px;
+    width: 336px;
+    height: 67px;
+    border-radius: 24px;
+    border:1px solid purple;
+    padding: 24px;
+    gap:8px;
+    cursor: pointer;
+    color: rgba(10, 56, 113, 1);
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 36px;
+}
