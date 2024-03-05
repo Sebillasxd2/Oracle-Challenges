@@ -17,7 +17,7 @@ function encriptar(mensaje){
         }
     }
     if(verificar === mensaje){
-        alert("El texto no puede ser encriptado, no hay nada que desencriptar");
+        alert("El texto no puede ser encriptado, no hay nada que desencriptar.");
         mensaje = "";
         return mensaje;
     }else{
@@ -41,7 +41,7 @@ function desencriptar(mensaje){
         }
     }
     if(verificar === mensaje){
-        alert("El texto no puede ser desencriptado, no hay nada que desencriptar");
+        alert("El texto no puede ser desencriptado, no hay nada que desencriptar.");
         mensaje = "";
         return mensaje;
     }else{
